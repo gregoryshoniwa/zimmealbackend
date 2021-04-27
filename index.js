@@ -48,7 +48,7 @@ app.use(express.static("public"));
 app.get("/", (req,res) =>{
 	res.send('index.html');
 
-});
+}); 
 
 app.post('/upload', async (req, res) => {
     if(req.files){
